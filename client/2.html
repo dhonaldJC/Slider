@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<title>SGM Soya</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+	<!-- LayerSlider styles -->
+	<link rel="stylesheet" href="layerslider/css/layerslider.css" type="text/css">
+    <link type="text/css" rel="stylesheet" href="main.css">
+</head>
+
+<body>
+	<div id="layerslider" style="width:2732px;height:2048px;max-width:2732px;">
+
+		<div class="ls-slide">
+			<img src="img/bg-1.jpg" class="ls-bg" alt="Slide background"/>
+            <img class="ls-l" style="top:134px;left:50%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;delayin:200;durationin:1400;" src="img/2-1.png" alt="">
+            <img class="ls-l" style="top:379px;left:85px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:0;delayin:1200;durationin:1400;" src="img/2-2.png" alt="">
+            <img class="ls-l" style="top:1233px;left:944px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:200;delayin:2200;durationin:1300;" src="img/2-3.png" alt="">
+            <img class="ls-l" style="top:1558px;left:1284px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:0;delayin:2400;durationin:1400;" src="img/2-4.png" alt="">
+            <img class="ls-l" style="top:854px;left:1099px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:0;delayin:5000;durationin:2000;scalexin:0;transformoriginin:0% bottom 0;" src="img/2-7.png" alt="">
+            <img class="ls-l" style="top:586px;left:455px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:0;delayin:2500;rotatein:35;durationin:2000;scalexin:1;scaleyin:1;showuntil:100;" src="img/2-5.png" alt="">
+            <img class="ls-l" style="top:302px;left:1339px;white-space: nowrap;" data-ls="offsetxin:-885;offsetyin:285;fadein:false;delayin:5050;durationin:1400;" src="img/2-5.png" alt="">
+            <img class="ls-l" style="top:719px;left:1486px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:0;scalexin:0.2;scaleyin:0.2;delayin:5250;durationin:1400;" src="img/2-6.png" alt="">
+            
+            <img class="ls-l" style="top:100%;left:50%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:bottom;delayin:6200;durationin:1200;" src="img/footer-1.png" alt="">
+            <img class="ls-l" style="top:50%;left:2645px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:0;" src="img/side-2.png" alt="">
+            
+        </div>       
+
+	</div>
+
+	<!-- External libraries: jQuery & GreenSock -->
+	<script src="layerslider/js/jquery.js"></script>
+	<script src="layerslider/js/greensock.js"></script>
+
+	<!-- LayerSlider script files -->
+	<script src="layerslider/js/layerslider.transitions.js"></script>
+	<script src="layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
+	<!-- Initializing the slider -->
+	<script>
+		jQuery("#layerslider").layerSlider({
+			type: 'responsive',
+			skinsPath: 'layerslider/skins/',
+			showCircleTimer: false,
+			autoPlayVideos: false,
+			pauseOnHover: false,
+			navButtons: false,
+			navStartStop: false,
+			navPrevNext: false
+		});
+	</script>
+
+</body>
+</html>
